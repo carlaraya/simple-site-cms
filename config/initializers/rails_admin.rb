@@ -53,6 +53,7 @@ RailsAdmin.config do |config|
     field :code, :ck_editor
   end
   config.model SiteVar do
+    field :title
     field :header, :ck_editor
     field :footer, :ck_editor
   end
