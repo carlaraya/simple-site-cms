@@ -51,6 +51,8 @@ RailsAdmin.config do |config|
   config.model Page do
     field :name
     field :code, :ck_editor
+    field :created_at
+    field :updated_at
   end
   config.model SiteVar do
     field :title
