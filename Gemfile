@@ -67,3 +67,10 @@ gem 'ckeditor'
 gem 'carrierwave', '~> 1.0'
 gem "carrierwave-postgresql-table"
 
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'font-awesome-sass', '~> 5.8.1'
+gem 'jquery-rails'
+
+
+
