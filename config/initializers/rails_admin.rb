@@ -1,6 +1,6 @@
 RailsAdmin.config do |config|
 
-  config.main_app_name = ["UP AdCore"]
+  config.main_app_name = [""]
 
   ## == Devise ==
   config.authenticate_with do

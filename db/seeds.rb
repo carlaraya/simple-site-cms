@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Page.create(name: 'home', code: '<p>Change this code in the admin dashboard</p>')
-SiteVar.create(header: '<header>header here</header>', footer: '<div>footer here</div>')
+SiteVar.create(title: 'Site Title', header: '<header>header here</header>', footer: '<div>footer here</div>')
