@@ -27,16 +27,20 @@ RailsAdmin.config do |config|
     dashboard                     # mandatory
     index                         # mandatory
     new do
-      except [Admin]
+      except [Admin, SiteVar]
     end
-    export
-    bulk_delete
+    export do
+      except [Admin, SiteVar]
+    end
+    bulk_delete do
+      except [Admin, SiteVar]
+    end
     show
     edit do
       except [Admin]
     end
     delete do
-      except [Admin]
+      except [Admin, SiteVar]
     end
     show_in_app
 
@@ -47,5 +51,9 @@ RailsAdmin.config do |config|
   config.model Page do
     field :name
     field :code, :ck_editor
+  end
+  config.model SiteVar do
+    field :header, :ck_editor
+    field :footer, :ck_editor
   end
 end

@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Page.create(name: 'home', code: '<p>Change this code in the admin dashboard</p>')
+SiteVar.create(header: '<header>header here</header>', footer: '<div>footer here</div>')

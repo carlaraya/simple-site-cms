@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <%= raw @sitevars.header %>
     <%= yield %>
+    <%= raw @sitevars.footer %>
   </body>
 </html>
